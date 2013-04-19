@@ -43,7 +43,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: paperclip_t
+  database: paperclip_test
   pool: 5
   username: postgres
   password: postgres
