@@ -11,7 +11,7 @@
 </p>
 <p>
   <b>Foto:</b>
-  <%= image_tag @user.avatar.url(:medium) %>
+  <%= @user.avatar.url(:medium) %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
